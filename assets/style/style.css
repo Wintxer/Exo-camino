@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../images/sneaker-background.jpg");
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 140px;
+}
+
+header nav {
+    position: absolute;
+    padding: 2% 8%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-title {
+    background-color: #fff;
+    color: #000;
+    height: 15vh;
+    padding: 2% 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    background-color: #fff;
+    color: #000;
+    border-radius: 100px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 8%;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+footer div {
+    background-color: #fff;
+    color: #000;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column-reverse;
+    }
+    header nav {
+        position: relative;
+    }
+
+    main div {
+        font-size: 1rem;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer div {
+        border-radius: 0;
+        font-size: 1rem;
+    }
+}
