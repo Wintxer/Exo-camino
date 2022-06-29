@@ -11,6 +11,7 @@ This project was carried out with the use of the following languages :
 * HTML
 * CSS
 * JAVASCRIPT
+* AJAX
 * PHP
 * MySQL
 
